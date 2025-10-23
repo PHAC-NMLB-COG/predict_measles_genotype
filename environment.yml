@@ -1,0 +1,11 @@
+name: predict_genotype
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python>=3.10
+  - minimap2
+  - samtools
+  - pip
+  - pip:
+    - git+https://github.com/PHAC-NMLB-COG/predict_measles_genotype.git
